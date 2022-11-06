@@ -1,0 +1,3 @@
+[submodule "ecommerce-app"]
+	path = ecommerce-app
+	url = ./ecommerce-app
