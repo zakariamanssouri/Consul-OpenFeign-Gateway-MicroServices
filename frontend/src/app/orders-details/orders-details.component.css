@@ -1,0 +1,41 @@
+
+::ng-deep :root {
+  --main-color: #F44336
+}
+
+.main-div {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+@media (max-width: 997px) {
+  .main-div {
+    grid-template-columns: 1fr;
+  }
+
+}
+.main-div div {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px #ccc;
+}
+
+div h2 {
+  padding: 13px 13px 0px 13px;
+  color: var(--main-color);
+}
+
+ul {
+  list-style: none;
+  padding:13px;
+  margin: 0;
+}
+
+ul li {
+  background-color: var(--main-color);
+  border-radius: 3px;
+  padding: 13px;
+  color: white;
+  margin-bottom: 10px;
+}

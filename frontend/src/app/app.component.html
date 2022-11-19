@@ -1,0 +1,19 @@
+
+<style>
+  button {
+    color:white;
+  }
+  a {
+    color:white;
+    text-decoration: none;
+  }
+</style>
+<mat-toolbar color="warn">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <button mat-button ><a routerLink="/products">Products</a></button>
+  <button mat-button ><a routerLink="/customers">Customers</a></button>
+  <span class="example-spacer"></span>
+</mat-toolbar>
+<router-outlet></router-outlet>

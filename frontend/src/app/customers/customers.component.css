@@ -1,0 +1,23 @@
+
+
+div a {
+  text-decoration: none !important;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 3px #bcbbbb !important;
+}
+
+.card-header {
+  display: flex;
+  border-radius: 10px 10px 0 0 ;
+
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px ;
+  font-weight: bold;
+  background-color: #654a94;
+  color: white;
+}

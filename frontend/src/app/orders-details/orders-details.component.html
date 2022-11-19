@@ -1,0 +1,23 @@
+<div class="main-div">
+  <div>
+    <h2>Information's</h2>
+    <hr>
+    <ul>
+      <li>ID : {{ OrderDetails.id }}</li>
+      <li>Date : {{ OrderDetails.createdAt }}</li>
+      <li>Status : {{ OrderDetails.status }}</li>
+      <li>customerId : {{ OrderDetails.customerId }}</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Product Items</h2>
+    <hr>
+    <ul >
+      <li *ngFor=" let product of OrderDetails.productItems">
+        Name: {{product.product.name}}, Quantity : {{product.quantity}} , Price : {{product.price}}
+      </li>
+    </ul>
+  </div>
+</div>
+
+
