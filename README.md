@@ -1,6 +1,10 @@
 <h3 align="center">A Micro Services architecture use case with Spring Cloud  </h3>
 
+<div align="center" >
+	
+![app](https://user-images.githubusercontent.com/80859231/202856498-9b6b7219-3bbe-423c-b0e8-85a70ed04519.gif)
 
+</div>
 
 ---
 
