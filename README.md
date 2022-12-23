@@ -17,6 +17,7 @@
 - [Customer Micro Service](#customer-service)
 - [Inventory Micro Service](#inventory-service)
 - [Order Micro Service](#order-service)
+- [Security](#security)
 - [⛏️ Built Using](#build_using)
 
 
@@ -403,6 +404,53 @@ spring.datasource.url=jdbc:h2:mem:order-db
 
 ![image](https://user-images.githubusercontent.com/80859231/200182510-08a29cd5-ad91-48ac-a6f5-8d7d25f214a2.png)
 
+## Security <a name = "security"></a>
+For Security we are used keycloak which is an open-source Identity and Access Management (IAM) tool.
+
+### Part1
+Starting keycloak
+
+```
+kc.sh start-dev 
+```
+
+![image](https://user-images.githubusercontent.com/80859231/209342506-df1e8c98-096b-4480-b730-9d3a93cf1c02.png)
+
+Creating Realme
+
+![image](https://user-images.githubusercontent.com/80859231/209342633-84d21326-ed03-4c1a-aa8b-befc0894ba42.png)
+
+Creating Client
+
+![image](https://user-images.githubusercontent.com/80859231/209342726-77175f1e-a60b-4669-8c51-9132924ba6c6.png)
+
+Users
+
+![image](https://user-images.githubusercontent.com/80859231/209342798-0ab764b6-af04-4bc6-a517-8a2a9c267ad5.png)
+
+Roles
+
+![image](https://user-images.githubusercontent.com/80859231/209342846-627de44c-02fb-45b3-99b3-ec76806aaa34.png)
+
+Users in Role Admin
+
+![image](https://user-images.githubusercontent.com/80859231/209342963-9c39b6f7-f4f7-4b47-b0a1-dd5d25695cef.png)
+
+Tests with PostMan
+
+![image](https://user-images.githubusercontent.com/80859231/209343133-21774338-10cc-40fc-97a1-f5876ca91a6d.png)
+
+Decode Token
+
+![image](https://user-images.githubusercontent.com/80859231/209343318-f655e4eb-1683-4d0f-939c-6d43d01e8a1e.png)
+
+Authentication with clientID & client Secret
+
+
+![image](https://user-images.githubusercontent.com/80859231/209343616-14d3226c-42f0-45f0-9ad2-3ce948dde10f.png)
+
+
+![image](https://user-images.githubusercontent.com/80859231/209343530-4d8bd874-adaa-430e-bca6-2e87255559cf.png)
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
